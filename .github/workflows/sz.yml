@@ -12,8 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     if: github.event.repository.owner.id == github.event.sender.id
     env:
-        RLURL: ${{ secrets.RLURL }}
-        RLHEADER: ${{ secrets.RLHEADER }}
+        SZRLURL: ${{ secrets.SZRLURL }}
+        SZHD: ${{ secrets.SZHD }}
         TZ: Asia/shanghai
     steps:
       - name: Checkout
@@ -26,10 +26,10 @@ jobs:
       - name: npm install
         run: |
           npm install
-      - name: '运行 【ranlv】'
-        if: env.RLHEADER
+      - name: '运行 【闪挣】'
+        if: env.SZHD
         run: |
-          node ranlv.js
+          node sz.js
         env:
           PUSH_KEY: ${{ secrets.PUSH_KEY }}
           BARK_PUSH: ${{ secrets.BARK_PUSH }}
