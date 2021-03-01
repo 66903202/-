@@ -142,7 +142,7 @@ function jqbsp1(timeout = 0) {
 let url = {
         url : 'http://jqb.iphonezhuan.com/submitsign',
         headers : {"Accept":"*/*","Accept-Encoding":"gzip, deflate","Connection":"keep-alive","Content-Type":"application/x-www-form-urlencoded","Host":"jqb.iphonezhuan.com","User-Agent":"%E6%99%BA%E8%83%BD%E4%BC%98%E9%80%89/1.03 CFNetwork/1209 Darwin/20.2.0","Content-Length":"28","Accept-Language":"zh-cn"},
-        body :  sign=835e1afbffa14eac106b0de55a423a50&adconfigid=6&channelID=2&timestamp=1613364257848&type=3&uid=8536&ver=103,}
+        body :  sign=835e1afbffa14eac106b0de55a423a50&adconfigid=6&channelID=2&timestamp=1613364257848&type=3&uid=8536&ver=103}
       $.post(url, async (err, resp, data) => {
         try {
            
@@ -167,7 +167,7 @@ function jqbsp2(timeout = 0) {
 let url = {
         url : 'http://jqb.iphonezhuan.com/submitsign',
         headers : {"Accept":"*/*","Accept-Encoding":"gzip, deflate","Connection":"keep-alive","Content-Type":"application/x-www-form-urlencoded","Host":"jqb.iphonezhuan.com","User-Agent":"%E6%99%BA%E8%83%BD%E4%BC%98%E9%80%89/1.03 CFNetwork/1209 Darwin/20.2.0","Content-Length":"28","Accept-Language":"zh-cn"},
-        body :  sign=3858452c6de48632d2f93e6cae986b95&adconfigid=7&channelID=2&timestamp=1613364835122&type=3&uid=8536&ver=103,}
+        body :  sign=3858452c6de48632d2f93e6cae986b95&adconfigid=7&channelID=2&timestamp=1613364835122&type=3&uid=8536&ver=103}
       $.post(url, async (err, resp, data) => {
         try {
            
@@ -192,7 +192,7 @@ function jqbsp3(timeout = 0) {
 let url = {
         url : 'http://jqb.iphonezhuan.com/submitsign',
         headers : {"Accept":"*/*","Accept-Encoding":"gzip, deflate","Connection":"keep-alive","Content-Type":"application/x-www-form-urlencoded","Host":"jqb.iphonezhuan.com","User-Agent":"%E6%99%BA%E8%83%BD%E4%BC%98%E9%80%89/1.03 CFNetwork/1209 Darwin/20.2.0","Content-Length":"28","Accept-Language":"zh-cn"},
-        body :  sign=16aea0462b98b5e0b804e716d4ad6538&adconfigid=8&channelID=2&timestamp=1613364868057&type=3&uid=8536&ver=103,}
+        body :  sign=16aea0462b98b5e0b804e716d4ad6538&adconfigid=8&channelID=2&timestamp=1613364868057&type=3&uid=8536&ver=103}
       $.post(url, async (err, resp, data) => {
         try {
            
@@ -217,7 +217,7 @@ function jqbsp4(timeout = 0) {
 let url = {
         url : 'http://jqb.iphonezhuan.com/submitsign',
         headers : {"Accept":"*/*","Accept-Encoding":"gzip, deflate","Connection":"keep-alive","Content-Type":"application/x-www-form-urlencoded","Host":"jqb.iphonezhuan.com","User-Agent":"%E6%99%BA%E8%83%BD%E4%BC%98%E9%80%89/1.03 CFNetwork/1209 Darwin/20.2.0","Content-Length":"28","Accept-Language":"zh-cn"},
-        body :  sign=4df731f6e2485f6a419a4ef7312580f7&adconfigid=9&channelID=2&timestamp=1613364907151&type=3&uid=8536&ver=103,}
+        body :  sign=4df731f6e2485f6a419a4ef7312580f7&adconfigid=9&channelID=2&timestamp=1613364907151&type=3&uid=8536&ver=103}
       $.post(url, async (err, resp, data) => {
         try {
            
@@ -242,7 +242,7 @@ function jqbsp5(timeout = 0) {
 let url = {
         url : 'http://jqb.iphonezhuan.com/submitsign',
         headers : {"Accept":"*/*","Accept-Encoding":"gzip, deflate","Connection":"keep-alive","Content-Type":"application/x-www-form-urlencoded","Host":"jqb.iphonezhuan.com","User-Agent":"%E6%99%BA%E8%83%BD%E4%BC%98%E9%80%89/1.03 CFNetwork/1209 Darwin/20.2.0","Content-Length":"28","Accept-Language":"zh-cn"},
-        body :  sign=a200e8ce3b92d2ae82dbb9ae3fea85b1&adconfigid=10&channelID=2&timestamp=1613364943522&type=3&uid=8536&ver=103,}
+        body :  sign=a200e8ce3b92d2ae82dbb9ae3fea85b1&adconfigid=10&channelID=2&timestamp=1613364943522&type=3&uid=8536&ver=103}
       $.post(url, async (err, resp, data) => {
         try {
            
@@ -267,7 +267,7 @@ function jqbzp(timeout = 0) {
 let url = {
         url : 'http://jqb.iphonezhuan.com/submitsign',
         headers : {"Accept":"*/*","Accept-Encoding":"gzip, deflate","Connection":"keep-alive","Content-Type":"application/x-www-form-urlencoded","Host":"jqb.iphonezhuan.com","User-Agent":"%E6%99%BA%E8%83%BD%E4%BC%98%E9%80%89/1.03 CFNetwork/1209 Darwin/20.2.0","Content-Length":"28","Accept-Language":"zh-cn"},
-        body :  sign=23bd5e2c48e217f2e7c2db9e174a8172&channelID=2&timestamp=1613363162072&type=4&uid=8536&ver=103,}
+        body :  sign=23bd5e2c48e217f2e7c2db9e174a8172&channelID=2&timestamp=1613363162072&type=4&uid=8536&ver=103}
       $.post(url, async (err, resp, data) => {
         try {
            
@@ -292,7 +292,7 @@ function jqbgg(timeout = 0) {
 let url = {
         url : 'http://jqb.iphonezhuan.com/submitsign',
         headers : {"Accept":"*/*","Accept-Encoding":"gzip, deflate","Connection":"keep-alive","Content-Type":"application/x-www-form-urlencoded","Host":"jqb.iphonezhuan.com","User-Agent":"%E6%99%BA%E8%83%BD%E4%BC%98%E9%80%89/1.03 CFNetwork/1209 Darwin/20.2.0","Content-Length":"28","Accept-Language":"zh-cn"},
-        body :  sign=7910f4785929cb51ef943396205db6b7&channelID=2&timestamp=1613363483544&type=2&uid=8536&ver=103,}
+        body :  sign=7910f4785929cb51ef943396205db6b7&channelID=2&timestamp=1613363483544&type=2&uid=8536&ver=103}
       $.post(url, async (err, resp, data) => {
         try {
            
@@ -317,7 +317,7 @@ function jqbrw(timeout = 0) {
 let url = {
         url : 'http://jqb.iphonezhuan.com/submitsign',
         headers : {"Accept":"*/*","Accept-Encoding":"gzip, deflate","Connection":"keep-alive","Content-Type":"application/x-www-form-urlencoded","Host":"jqb.iphonezhuan.com","User-Agent":"%E6%99%BA%E8%83%BD%E4%BC%98%E9%80%89/1.03 CFNetwork/1209 Darwin/20.2.0","Content-Length":"28","Accept-Language":"zh-cn"},
-        body :  uid=8536&channelID=2&type=1&ver=103,}
+        body :  uid=8536&channelID=2&type=1&ver=103}
       $.post(url, async (err, resp, data) => {
         try {
            
@@ -347,7 +347,7 @@ function jqbqd(timeout = 0) {
 let url = {
         url : 'http://jqb.iphonezhuan.com/submitsign',
         headers : {"Accept":"*/*","Accept-Encoding":"gzip, deflate","Connection":"keep-alive","Content-Type":"application/x-www-form-urlencoded","Host":"jqb.iphonezhuan.com","User-Agent":"%E6%99%BA%E8%83%BD%E4%BC%98%E9%80%89/1.03 CFNetwork/1209 Darwin/20.2.0","Content-Length":"28","Accept-Language":"zh-cn"},
-        body : channelID=2&uid=8536&ver=103,}
+        body : channelID=2&uid=8536&ver=103}
       $.post(url, async (err, resp, data) => {
         try {
            
