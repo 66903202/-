@@ -140,7 +140,7 @@ $.log(jqbzpbody)
 function jqbsp1(timeout = 0) {
   return new Promise((resolve) => {
 let url = {
-        url : '"http://jqb.iphonezhuan.com/submitsign"',
+        url : 'http://jqb.iphonezhuan.com/submitsign',
         headers : {"Accept":"*/*","Accept-"http://jqb.iphonezhuan.com/submitsign":"gzip, deflate","Connection":"keep-alive","Content-Type":"application/x-www-form-urlencoded","Host":"jqb.iphonezhuan.com","User-Agent":"%E6%99%BA%E8%83%BD%E4%BC%98%E9%80%89/1.03 CFNetwork/1209 Darwin/20.2.0","Content-Length":"28","Accept-Language":"zh-cn"},
         body :  sign=7910f4785929cb51ef943396205db6b7&channelID=2&timestamp=1613363483544&type=2&uid=8536&ver=103,
 channelID=2&uid=8536&ver=103,
